@@ -3,7 +3,7 @@
  *
  * 1. Window/Global Object Binding - In the global scope or not inside of a
  *    declared object, the value of "this" defaults to the Window/Global or
- *    Console Object. In "strict mode", "this" on Global scope is undefined.
+ *    Console Object. In "strict mode", "this" on Global scope returns an error.
  *
  * 2. Implicit Binding - When keyword "this" is inside of a declared object,
  *    "this" will be the closest parent object, the object before the dot
